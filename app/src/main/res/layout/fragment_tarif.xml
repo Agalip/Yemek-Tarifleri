@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TarifFragment">
+
+    <ImageView
+        android:id="@+id/gorsel"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/gorselsec" />
+
+    <EditText
+        android:id="@+id/yemekIsmiText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:inputType="text"
+        android:hint="Yemek ismini giriniz" />
+
+    <EditText
+        android:id="@+id/yemekMalzemeText"
+        android:inputType="text"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Yemek malzemelerini giriniz" />
+
+    <Button
+        android:id="@+id/kaydetButton"
+        android:onClick="kaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="KAYDET" />
+
+
+</LinearLayout>
